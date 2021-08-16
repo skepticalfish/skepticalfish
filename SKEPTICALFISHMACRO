@@ -1,0 +1,79 @@
+Sub SKEPTICALFISHMACRO()
+'
+' SKEPTICALFISHMACRO Macro
+' SKEPTICALFISHMACRO: The Code To Create A Skepticalfish With Visual Basic In Microsoft Excel
+'
+
+'
+    Columns("A:AK").Select
+    Selection.ColumnWidth = 2.09
+    ActiveWindow.ScrollColumn = 25
+    ActiveWindow.ScrollColumn = 23
+    ActiveWindow.ScrollColumn = 22
+    ActiveWindow.ScrollColumn = 21
+    ActiveWindow.ScrollColumn = 20
+    ActiveWindow.ScrollColumn = 19
+    ActiveWindow.ScrollColumn = 18
+    ActiveWindow.ScrollColumn = 17
+    ActiveWindow.ScrollColumn = 16
+    ActiveWindow.ScrollColumn = 15
+    ActiveWindow.ScrollColumn = 14
+    ActiveWindow.ScrollColumn = 13
+    ActiveWindow.ScrollColumn = 12
+    ActiveWindow.ScrollColumn = 11
+    ActiveWindow.ScrollColumn = 10
+    ActiveWindow.ScrollColumn = 9
+    ActiveWindow.ScrollColumn = 8
+    ActiveWindow.ScrollColumn = 7
+    ActiveWindow.ScrollColumn = 6
+    ActiveWindow.ScrollColumn = 5
+    ActiveWindow.ScrollColumn = 4
+    ActiveWindow.ScrollColumn = 3
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range( _
+        "G7:I7,J8:K8,L9,M10,N11,O10:P10,Q9:R9,S7:S8,T7:W7,X8:Y8,Z9:AA9,AB10,AC11:AC13,AB14,Z15:AA15,V16:Y16,S17:U17,S15:S16,T14,R16,P15:Q15,M14:O14,L15,I16:K16,I15,J11:J14,I10,H9,G8,Y11" _
+        ).Select
+    Range("Y11").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range( _
+        "J15,K12:K15,J10,I9,L14,L13:N13,P14:Q14,R15,T15:T16,U16,V15:Y15,W14,V11:V13"). _
+        Select
+    Range("V13").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorAccent2
+        .TintAndShade = -0.249977111117893
+        .PatternTintAndShade = 0
+    End With
+    Range( _
+        "K10:K11,L11:L12,M12:U12,O13:U13,R14:S14,U14:V14,U15,X14:AA14,W13:AB13,W12:AB12,Z11:AA11,W11:X11,O11:U11,Q10:Y10,S9:W9,T8" _
+        ).Select
+    Range("T8").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorAccent4
+        .TintAndShade = -0.249977111117893
+        .PatternTintAndShade = 0
+    End With
+    Range("H8:I8,J9:K9,L10,M11,U8:W8,X9:Y9,Z10:AA10,AB11").Select
+    Range("AB11").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorAccent4
+        .TintAndShade = 0.799981688894314
+        .PatternTintAndShade = 0
+    End With
+    Cells.Select
+    ActiveWindow.DisplayGridlines = False
+    Range("AK23").Select
+End Sub
